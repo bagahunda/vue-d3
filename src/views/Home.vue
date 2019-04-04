@@ -76,6 +76,7 @@ export default {
         .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
     // adds the links between the nodes
+    // eslint-disable-next-line no-unused-vars
     var link = g
       .selectAll(".link")
       .data(nodes.descendants().slice(1))
